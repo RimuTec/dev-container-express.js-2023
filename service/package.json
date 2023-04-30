@@ -5,7 +5,8 @@
    "main": "index.js",
    "scripts": {
       "dev": "tsc && node ./build/server.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "upgrade-all": "npx -yes -p npm-check-updates ncu -u && npm install"
    },
    "keywords": [],
    "author": "",
