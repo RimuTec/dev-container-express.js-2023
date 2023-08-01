@@ -1,3 +1,5 @@
 node_modules
 console/**/*.js
 build
+coverage
+playground
