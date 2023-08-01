@@ -2,7 +2,7 @@
 {
    "name": "TypeScript example",
    "dockerComposeFile": [
-      "docker-compose.yml",
+      "docker-compose.yml"
    ],
    // The name of the following service has to match one of the services in docker-compose.yml
    "service": "typescript-dev",
@@ -23,9 +23,9 @@
             "rtbenfield.vscode-jest-test-adapter",
             "tsandall.opa",
             "usernamehw.errorlens"
-         ],
+         ]
       }
    },
    "shutdownAction": "stopCompose",
-   "remoteUser": "node",
+   "remoteUser": "node"
 }
