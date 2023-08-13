@@ -3,3 +3,5 @@ console/**/*.js
 build
 coverage
 playground
+.pnpm-store
+tsoa-generated
