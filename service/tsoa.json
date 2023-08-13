@@ -19,6 +19,7 @@
       }
    },
    "routes": {
-      "routesDir": "tsoa-generated"
+      "routesDir": "tsoa-generated",
+      "iocModule": "src/config/ioc"
    }
 }
